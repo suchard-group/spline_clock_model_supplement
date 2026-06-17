@@ -2,7 +2,7 @@
 
 This repository contains the instructions and files to reproduce the analyses 
 performed in the paper "Smoothly Time-Varying Continuous Time Markov Chains in 
-Phylogenetics"  by Datta et al. 
+Phylogenetics" by Datta et al. (2026).
 
 ### Setting up BEAGLE
 Please follow the [BEAGLE installation instructions](https://github.com/beagle-dev/beagle-lib/wiki/MacInstallInstructions)
