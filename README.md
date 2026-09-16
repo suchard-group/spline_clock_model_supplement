@@ -14,7 +14,7 @@ Follow the [instructions](https://github.com/beagle-dev/beagle-lib/wiki/MacInsta
 ```
 xcode-select --install
 brew install cmake
-git clone -b hmc-clock https://github.com/beagle-dev/beagle-lib.git
+git clone https://github.com/beagle-dev/beagle-lib.git
 cd beagle-lib
 mkdir build
 cd build
