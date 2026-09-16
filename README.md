@@ -64,25 +64,25 @@ cd where_you_want_to_save_results
 * Fit uncorrelated relaxed clock (UCLD)
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/bilinear/bilinear_ucld.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/bilinear/bilinear_ucld.xml
 	```
 	
 * Fit polyepoch clock model
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/bilinear/bilinear_pcm.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/bilinear/bilinear_pcm.xml
 	```	
 	
 * Fit spline clock model (exponential link)
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/bilinear/bilinear_scm.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/bilinear/bilinear_scm.xml
 	```		
 
 * Fit spline clock model (squared link)
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/bilin_squared/bilin_squared.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/bilin_squared/bilin_squared.xml
 	```		
 
 	
@@ -92,19 +92,19 @@ cd where_you_want_to_save_results
 * Fit UCLD
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/linear/linear_ucld.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/linear/linear_ucld.xml
 	```
 	
 * Fit polyepoch clock model
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/linear/linear_pcm.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/linear/linear_pcm.xml
 	```	
 	
 * Fit spline clock model (exponential link)
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/linear/linear_scm.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/linear/linear_scm.xml
 	```		
 
 #### Constant Rate Simulation
@@ -112,19 +112,19 @@ cd where_you_want_to_save_results
 * Fit UCLD
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/constant/constant_ucld.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/constant/constant_ucld.xml
 	```
 	
 * Fit polyepoch clock model
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/constant/constant_pcm.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/constant/constant_pcm.xml
 	```	
 	
 * Fit spline clock model (exponential link)
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/constant/constant_scm.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/constant/constant_scm.xml
 	```		
 	
 
@@ -135,7 +135,7 @@ cd where_you_want_to_save_results
 * Fit spline clock model with exponential link
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/fv/fv.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/fv/fv.xml
 	```
 	
 
@@ -145,6 +145,6 @@ cd where_you_want_to_save_results
 * Fit spline clock model with exponential link: requires genome data from GISAID.org to run sc2.xml
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/sc2/sc2.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -seed 1161 -overwrite where_this_repository_is_stored/spline_clock_model_supplement/xml/sc2/sc2.xml
 	```
 	
